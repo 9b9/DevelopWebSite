@@ -1,0 +1,51 @@
+---
+title: "測試Code highlighted"
+date: 2021-12-04T16:59:31+08:00
+categories: ["技術"]
+tags: []
+keywords:
+  - GitHub
+  - GitHub Pages
+  - Hugo
+summary: "測試"
+draft: false
+showDate: true
+showTags: true
+showPagination: true
+metaAlignment: center
+showMeta: true
+comments: true
+showSocial: true
+---
+
+{{< toc >}}
+
+## CShparp
+
+{{< codeblock "archives.cs" "cs" "http://underscorejs.org/#compact" "archives.cs" >}}
+using System;
+
+#pragma warning disable 414, 3021
+
+public class Program
+{
+    /// <summary>The entry point to the program.</summary>
+    public static int Main(string[] args)
+    {
+        Console.WriteLine("Hello, World!");
+        string s = @"This
+""string""
+spans
+multiple
+lines!";
+        return 0;
+    }
+}
+
+async Task<int> AccessTheWebAsync()
+{
+    // ...
+    string urlContents = await getStringTask;
+    return urlContents.Length;
+}
+{{< /codeblock >}}
